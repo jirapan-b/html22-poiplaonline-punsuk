@@ -24,6 +24,18 @@
             position: relative;
         }
         .navbar-nav {
+            .nav-link::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                width: 0%;
+                height: 4px;
+                bottom: -28px;
+                background: var(--color-secondary);
+                opacity: 0;
+                transition: 0.3s;
+            }
             .active > .nav-link::before,
             .nav-link.active::before,
             .nav-link.show::before,
@@ -32,13 +44,15 @@
                 position: absolute;
                 left: 0;
                 right: 0;
+                width: 100%;
                 height: 4px;
-                bottom: -27px;
+                bottom: -28px;
                 background: var(--color-secondary);
+                opacity: 1;
             }
         }
         #navbarMenu {
-            .navbar-nav li+ li {
+            .navbar-nav li + li {
                 margin-left: 1.5rem;
             }
         }

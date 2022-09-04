@@ -14,6 +14,8 @@
 
 <script src="assets/js/sweetalert2@11.js"></script>
 
+<script src="assets/js/scrollIt.min.js"></script>
+
 <!-- Custom -->
 <script src="assets/js/main.js<?=$modify?>"></script>
 <script type="text/javascript">var raf = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;</script>

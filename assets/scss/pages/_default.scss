@@ -15,22 +15,73 @@
     color: var(--color-primary);
 }
 
-.section .title {
-    font-size: var(--typo-xl);
-}
-.desc {
-    font-size: var(--typo-sm);
-}
-
 .feather {
     font-size: 25px;
     position: relative;
     top: 3px;
-    margin-right: .4rem;
+    margin-right: 0.4rem;
+}
+
+.slick-dots {
+    bottom: 110px;
+    width: auto;
+    right: 22%;
+    z-index: 1;
+}
+.slick-dots li,
+.slick-dots li button {
+    width: 16px;
+    height: 16px;
 }
 
 .slick-dots li button:before {
     content: "";
+    width: 16px;
+    height: 16px;
     background-color: var(--color-gray);
     border-radius: 50%;
+    opacity: 1;
+    transition: 0.3s;
+}
+.slick-dots li.slick-active button:before {
+    background-color: var(--color-secondary);
+}
+
+img.logo {
+    border-radius: 50%;
+}
+
+.btn {
+    &.fb {
+        background: #0b6ab8;
+    }
+    &.line {
+        background: #00b938;
+    }
+}
+
+.modal-content {
+    border-radius: 2rem;
+}
+.modal.modal-contact {
+    .modal-body .btn {
+        img {
+            position: relative;
+            top: -2px;
+            left: -30px;
+            width: 60px;
+        }
+        span {
+            position: relative;
+            left: -30px;
+            font-size: 28px;
+            color: var(--color-secondary);
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 800px;
+    }
 }

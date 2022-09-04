@@ -12,9 +12,56 @@
     position: relative;
     display: block;
     width: calc(144% + 1.3px);
-    height: 220px;
+    height: 320px;
 }
 
 .shape-divider-1 .shape-fill {
     fill: #ffffff;
+}
+
+.shape-divider-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  
+}
+
+
+.shape-divider-2 svg {
+    position: relative;
+    display: block;
+    width: calc(189% + 1.3px);
+    height: 560px;
+}
+
+.shape-divider-2 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.shape-divider-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.shape-divider-3 svg {
+    position: relative;
+    display: block;
+    width: calc(189% + 1.3px);
+    height: 560px;
+}
+ 
+.shape-divider-3 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.flip {
+    transform: scaleX(-1);
 }

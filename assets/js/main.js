@@ -8,6 +8,12 @@ $(function () {
 });
 
 $(document).ready(function () {
+
+    $.scrollIt({
+        easing: 'linear',
+        topOffset: -100 
+    });
+
     $('.top-graphic .slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,

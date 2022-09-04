@@ -1,7 +1,7 @@
 <header class="site-header">
 	<nav class="navbar navbar-expand-lg navbar-light">
 		<a href="#" class="navbar-brand" title="ปล่อยปลาปันสุข">
-			<img src="assets/img/static/logo.png" alt="โลโก้ของปล่อยปลาปันสุข">
+			<img class="logo" src="assets/img/static/logo.png" alt="โลโก้ของปล่อยปลาปันสุข">
 			<strong class="typo-md text-primary fw-medium"><span class="text-secondary">ปล่อยปลา</span>ปันสุข</strong>
 		</a>
 
@@ -12,19 +12,19 @@
 		<div class="collapse navbar-collapse" id="navbarMenu">
 			<ul class="navbar-nav">
 				<li class="nav-item">
-					<a class="nav-link typo-xs active" href="#">หน้าแรก</a>
+					<a class="nav-link typo-xs" href="#" data-scroll-nav="0">หน้าแรก</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link typo-xs" href="#">บริการปล่อยปลา</a>
+					<a class="nav-link typo-xs" href="#" data-scroll-nav="1">บริการปล่อยปลา</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link typo-xs" href="#">บริการจัดส่งปลาปล่อย</a>
+					<a class="nav-link typo-xs" href="#" data-scroll-nav="2">บริการจัดส่งปลาปล่อย</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link typo-xs" href="#">ทำบุญถวายสังฆทาน</a>
+					<a class="nav-link typo-xs" href="#" data-scroll-nav="3">ทำบุญถวายสังฆทาน</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link typo-xs" href="#">ติดต่อปล่อยปลา</a>
+					<a class="nav-link typo-xs" href="#" data-toggle="modal" data-target="#contactModal">ติดต่อปล่อยปลา</a>
 				</li>
 			</ul>
 		</div>

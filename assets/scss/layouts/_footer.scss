@@ -1,0 +1,44 @@
+.site-footer {
+    background: url(../img/background/wavs-bottom.svg), linear-gradient(rgba(255, 255, 255, 0) 0%, #bcd7e7 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    padding-top: 12rem;
+    padding-bottom: 22rem;
+    border-bottom: 0.8rem solid var(--color-primary);
+    .footer-brand {
+        .logo {
+            max-width: 220px;
+        }
+        .title {
+            font-size: 56px;
+        }
+    }
+    .footer-contact {
+        .box {
+            background-color: var(--color-light);
+            border-radius: 2rem;
+            padding: 1rem 3rem;
+        }
+        .btn {
+            font-size: var(--typo-sm);
+            overflow: hidden;
+            img {
+                position: relative;
+                top: -2px;
+                left: -30px;
+                width: 60px;
+            }
+            span {
+                position: relative;
+                left: -30px;
+                font-size: 28px;
+                color: var(--color-secondary);
+            }
+          
+        }
+        .list-group a + a {
+            margin-top: 1.5rem;
+        }
+    }
+}
