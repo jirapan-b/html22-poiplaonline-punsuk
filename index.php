@@ -28,7 +28,7 @@
                                         พร้อมจัดส่งทั่วประเทศ</p>
                                     <ul class="item-list">
                                         <li>
-                                            <a href="tel:0979736364" class="btn btn-primary" title="Phone Number">
+                                            <a href="tel:0979736364" class="btn btn-lg btn-primary" title="Phone Number">
                                                 <span class="feather icon-phone"></span>
                                                 097 973 6364
                                             </a>

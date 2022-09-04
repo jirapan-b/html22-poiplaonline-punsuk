@@ -43,6 +43,15 @@
         .item-list {
             display: flex;
             justify-content: center;
+            .link {
+                img {
+                    width: 64px;
+                    height: 64px;
+                }
+            }
+            & li + li {
+                margin-left: 1rem;
+            }
         }
     }
     .wrapper {

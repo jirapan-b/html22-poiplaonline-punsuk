@@ -28,3 +28,9 @@
     top: 3px;
     margin-right: .4rem;
 }
+
+.slick-dots li button:before {
+    content: "";
+    background-color: var(--color-gray);
+    border-radius: 50%;
+}

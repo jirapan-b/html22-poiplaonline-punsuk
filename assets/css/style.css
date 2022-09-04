@@ -4248,6 +4248,15 @@ div.swal2-html-container {
           justify-content: center;
 }
 
+.top-graphic .inner .item-list .link img {
+  width: 64px;
+  height: 64px;
+}
+
+.top-graphic .inner .item-list li + li {
+  margin-left: 1rem;
+}
+
 .top-graphic .wrapper {
   position: relative;
   color: var(--color-light);
