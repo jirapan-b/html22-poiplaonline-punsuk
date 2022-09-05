@@ -70,7 +70,7 @@
                                 สะพานบุญปล่อยปลา พร้อมสวดอธิษฐานจิต และส่งคลิปวีดีโอตอน
                                 ปล่อยปลาให้ลูกค้า
                             </p>
-                            <a href="#" class="btn btn-primary">ปล่อยปลากันเถอะ</a>
+                            <a href="#" class="btn btn-primary" title="ปล่อยปลากันเถอะ">ปล่อยปลากันเถอะ</a>
                         </div>
                         <div class="col-md-6 col-12">
                             <img class="shape -I-I" src="assets/img/static/section-I-I.jpg" alt="ปล่อยปลาปันสุข">
@@ -103,7 +103,7 @@
                             <p class="desc">บริการจัดส่งปลาปล่อยทั่วไทย <strong>จัดส่งฟรี</strong> วัดราชาธิวาส วัดเทวราชกุญชร และสถานที่ใกล้เคียง สถานที่อื่นคิดค่าส่ง
                                 ตามระยะทาง
                             </p>
-                            <a href="#" class="btn btn-primary">สอบถามค่าจัดส่ง</a>
+                            <a href="#" class="btn btn-primary" title="สอบถามค่าจัดส่ง">สอบถามค่าจัดส่ง</a>
                         </div>
                         <div class="col-md-6 col-12 order-md-first">
                             <img class="shape -II-I" src="assets/img/static/section-II-I.jpg" alt="ปล่อยปลาปันสุข">
@@ -131,7 +131,7 @@
                                     ผ้าไตรจีวร เทียนพรรษา รวมทั้งทำบุญโลงศพ และไถ่ชีวิต
                                     โคกระบือ
                                 </p>
-                                <a href="#" class="btn btn-primary">สอบถามค่าจัดส่ง</a>
+                                <a href="#" class="btn btn-primary" title="สอบถามค่าจัดส่ง">สอบถามค่าจัดส่ง</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-12">
@@ -284,7 +284,7 @@
                     </button>
                     <div class="modal-body">
                         <div class="wrapper">
-                            <h2 class="title fw-bold typo-xl text-center">
+                            <h2 class="title fw-medium typo-xl text-center">
                             ช่วยน้องปลากันเถอะ
                             </h2>
                             <div class="row align-items-center">
@@ -293,14 +293,14 @@
                                 </div>
                                 <div class="col-sm-6 col-12">
                                     <ul class="list-group">
-                                        <a href="tel:0979736364" class="btn btn-lg btn-primary">
+                                        <a href="tel:0979736364" class="btn btn-xl btn-primary" title="Phone Number">
                                             <span class="feather icon-phone"></span>
                                             097 973 6364
                                         </a>
-                                        <a href="https://www.facebook.com/poiplaonline.punsuk/" class="btn btn-lg btn-primary fb" target="_blank">
+                                        <a href="https://www.facebook.com/poiplaonline.punsuk/" class="btn btn-xl btn-primary fb" title="Facebook" target="_blank">
                                             <img src="assets/img/icon/facebook.svg" alt="เฟสบุ๊คของปล่อยปลาปันสุข">ปล่อยปลาปันสุข
                                         </a>
-                                        <a href="#" class="btn btn-lg btn-primary line" target="_blank">
+                                        <a href="#" class="btn btn-xl btn-primary line" title="Line" target="_blank">
                                             <img src="assets/img/icon/line.svg" alt="ไลน์ของปล่อยปลาปันสุข">ปล่อยปลาปันสุข
                                         </a>
                                     </ul>

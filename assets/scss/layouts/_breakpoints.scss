@@ -5,22 +5,98 @@
 
 @media (max-width: 1600px) {
 	.container{max-width: inherit; width: 1440px;}
+
+	:root{
+		// --typo-xs: 18px; 
+		--typo-sm: 20px; 
+		--typo-md: 24px; 
+		--typo-lg: 28px; 
+		--typo-xl: 40px; 
+		// --typo-default: 20px;
+	}
 }
 
 @media (max-width: 1440px) {
 	.container{max-width: inherit; width: 1210px;}
+
+	:root{
+		// // --typo-xs: 18px; 
+		// --typo-sm: 22px; 
+		--typo-md: 24px; 
+		--typo-lg: 26px; 
+		--typo-xl: 36px; 
+		// --typo-default: 20px;
+	}
+
+	.btn {
+		min-width: 100px;
+		height: 48px;
+		line-height: 46px;
+		&.btn-lg {
+			height: 54px;
+			line-height: 52px;
+		}
+		&.btn-xl {
+			height: 64px;
+			line-height: 62px;
+		}
+	}
 }
 
 @media (max-width: 1199px) {
 	.container{max-width: inherit; width: 970px;}
+
+	:root{
+		--typo-xs: 16px; 
+		--typo-sm: 20px; 
+		--typo-md: 22px; 
+		--typo-lg: 24px; 
+		--typo-xl: 32px; 
+		--typo-default: 18px;
+	}
+
 }
 
 @media (max-width: 991px) {
 	.container{max-width: inherit; width: 100%;}
+
+	:root{
+		--typo-xs: 14px; 
+		--typo-sm: 18px; 
+		--typo-md: 20px; 
+		--typo-lg: 22px; 
+		--typo-xl: 30px; 
+		--typo-default: 16px;
+	}
+
+	
 }
 
 @media (max-width: 767px) {
 	.container{max-width: inherit; width: 100%;}
+	:root{
+		--typo-xs: 12px; 
+		--typo-sm: 16px; 
+		--typo-md: 18px; 
+		--typo-lg: 20px; 
+		--typo-xl: 28px; 
+		--typo-default: 14px;
+	}
+
+	.btn {
+		min-width: 80px;
+		height: 40px;
+		line-height: 38px;
+		&.btn-lg {
+			height: 46px;
+			line-height: 44px;
+		}
+		&.btn-xl {
+			height: 50px;
+			line-height: 48px;
+		}
+	}
+
 }
 
 @media (max-width: 575px) {

@@ -22,14 +22,14 @@
                         <div class="row align-items-center">
                             <div class="col-sm-6 col-12">
                                 <ul class="list-group">
-                                    <a href="tel:0979736364" class="btn btn-lg btn-primary">
+                                    <a href="tel:0979736364" class="btn btn-lg btn-primary" title="Phone Number">
                                         <span class="feather icon-phone"></span>
                                         097 973 6364
                                     </a>
-                                    <a href="https://www.facebook.com/poiplaonline.punsuk/" class="btn btn-lg btn-primary fb" target="_blank">
+                                    <a href="https://www.facebook.com/poiplaonline.punsuk/" class="btn btn-lg btn-primary fb" title="Facebook" target="_blank">
                                         <img src="assets/img/icon/facebook.svg" alt="เฟสบุ๊คของปล่อยปลาปันสุข">ปล่อยปลาปันสุข
                                     </a>
-                                    <a href="#" class="btn btn-lg btn-primary line" target="_blank">
+                                    <a href="#" class="btn btn-lg btn-primary line" title="Line" target="_blank">
                                         <img src="assets/img/icon/line.svg" alt="ไลน์ของปล่อยปลาปันสุข">ปล่อยปลาปันสุข
                                     </a>
                                 </ul>
@@ -44,3 +44,9 @@
         </div>
     </div>
 </footer>
+
+<div class="poipla">
+    <a href="#" class="link" title="ช่วยน้องปลาที!" data-toggle="modal" data-target="#contactModal" title="ติดต่อปล่อยปลา">
+        <img src="assets/img/static/poipla.svg" alt="ช่วยน้องปลาที!">
+    </a>
+</div>

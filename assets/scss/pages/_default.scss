@@ -22,12 +22,7 @@
     margin-right: 0.4rem;
 }
 
-.slick-dots {
-    bottom: 110px;
-    width: auto;
-    right: 22%;
-    z-index: 1;
-}
+
 .slick-dots li,
 .slick-dots li button {
     width: 16px;
@@ -60,24 +55,91 @@ img.logo {
     }
 }
 
-.modal-content {
-    border-radius: 2rem;
+.navbar-toggler {
+    border: none;
 }
-.modal.modal-contact {
-    .modal-body .btn {
-        img {
-            position: relative;
-            top: -2px;
-            left: -30px;
-            width: 60px;
-        }
-        span {
-            position: relative;
-            left: -30px;
-            font-size: 28px;
-            color: var(--color-secondary);
-        }
-    }
+
+.navbar-toggler {
+    display: inline-block;
+    width: 30px;
+    height: 23px;
+    position: relative;
+}
+
+.navbar-toggler .bar {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    background-color: var(--color-primary);
+    margin: auto;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: All 400ms ease;
+    -moz-transition: All 400ms ease;
+    -o-transition: All 400ms ease;
+}
+
+.navbar-toggler .bar:nth-child(1) {
+    top: 0;
+}
+
+.navbar-toggler .bar:nth-child(2) {
+    top: 0;
+    bottom: 0;
+}
+
+.navbar-toggler .bar:nth-child(3) {
+    top: 0;
+    bottom: 0;
+}
+
+.navbar-toggler .bar:nth-child(4) {
+    bottom: 0;
+}
+
+.navbar-toggler:not(.collapsed),
+.navbar-toggler.close {
+    opacity: 1;
+}
+
+.navbar-toggler:not(.collapsed) .bar:nth-child(1),
+.navbar-toggler.close .bar:nth-child(1) {
+    top: 0;
+    opacity: 0;
+}
+.navbar-toggler:not(.collapsed) .bar:nth-child(2),
+.navbar-toggler.close .bar:nth-child(2) {
+    top: 0;
+    bottom: 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+.navbar-toggler:not(.collapsed) .bar:nth-child(3),
+.navbar-toggler.close .bar:nth-child(3) {
+    top: 0;
+    bottom: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+.navbar-toggler:not(.collapsed) .bar:nth-child(4),
+.navbar-toggler.close .bar:nth-child(4) {
+    bottom: 0;
+    opacity: 0;
+}
+
+.poipla {
+    position: fixed;
+    bottom: 150px;
+    right: 2rem;
+    z-index: 99;
 }
 
 @media (min-width: 576px) {
