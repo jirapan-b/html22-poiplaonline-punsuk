@@ -35,7 +35,7 @@
                                 </ul>
                             </div>
                             <div class="col-xl-6 col-md-auto col-12 text-center">
-                                <img src="assets/img/static/qr-code.png" alt="qr code">
+                                <img class="qr-code" src="assets/img/static/qr-code.png" alt="qr code">
                             </div>
                         </div>
                     </div>

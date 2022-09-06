@@ -548,8 +548,11 @@
 
 @media (max-width: 991px) {
     .top-graphic .cover {
-        padding-top: 50vh;
+        padding-top: 88vh;
     }
+    // .top-graphic .cover {
+    //     padding-top: 50vh;
+    // }
     .top-graphic .inner .title {
         font-size: 40px;
     }
@@ -635,6 +638,9 @@
         bottom: 0px;
         width: 50px;
         height: 50px;
+    }
+    .site-container .section.section-IV .title br{
+        display: none;
     }
 }
 
@@ -729,6 +735,14 @@
     .site-container .section.section-V .desc br {
         display: none;
     }
+    .site-container .section .btn {
+        min-width: 100%;
+    }
+    .site-container .section .topic,
+    .site-container .section .title,
+    .site-container .section .desc {
+        text-align: center;
+    }
 }
 
 @media (max-width: 575px) {
@@ -746,7 +760,7 @@
         margin-bottom: 0.5rem;
     }
     .top-graphic .cover {
-        padding-top: 44vh;
+        padding-top: 65vh;
     }
     .top-graphic .slick-dots {
         bottom: 15px;

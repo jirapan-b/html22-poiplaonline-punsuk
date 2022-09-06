@@ -106,7 +106,9 @@
     .site-footer .footer-brand .desc br {
         display: none;
     }
-
+    .site-footer .footer-contact .qr-code {
+        max-width: 80%;
+    }
 }
 
 @media (max-width: 575px) {

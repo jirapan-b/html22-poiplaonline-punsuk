@@ -58,6 +58,14 @@
                 </div>
             </div>
 
+            <div class="d-md-none d-block mb-5">
+                <div class="container">
+                    <a href="#" class="btn btn-lg btn-primary fluid text-secondary" title="ปล่อยปลากันเถอะ">
+                        ปล่อยปลากันเถอะ
+                    </a>
+                </div>
+            </div>
+
             <div class="section section-I" data-scroll-index="1">
                 <div class="container">
                     <div class="row align-items-center">
@@ -285,7 +293,7 @@
                     <div class="modal-body">
                         <div class="wrapper">
                             <h2 class="title fw-medium typo-xl text-center">
-                            ช่วยน้องปลากันเถอะ
+                                ช่วยน้องปลากันเถอะ
                             </h2>
                             <div class="row align-items-center">
                                 <div class="col-sm-6 col-12">

@@ -53,7 +53,7 @@
 				</a>
 			</li>
 			<li class="nav-item ml-2">
-				<a href="#" class="btn btn-primary">
+				<a href="#" class="btn btn-primary" title="ปล่อยปลากันเถอะ">
 					ปล่อยปลากันเถอะ
 				</a>
 			</li>

@@ -4068,10 +4068,6 @@ li.fancybox-thumbs-loading {
   .modal .modal-content {
     border-radius: 1rem;
   }
-  .modal .close span {
-    font-size: 26px;
-    padding: 4px;
-  }
   .modal.modal-contact .modal-body .title {
     top: -20px;
     font-size: 35px;
@@ -4090,11 +4086,17 @@ li.fancybox-thumbs-loading {
   .modal.modal-contact .modal-body .title {
     position: relative;
     top: 0;
-    font-size: 32px;
+    font-size: 30px;
   }
   .modal.modal-contact .modal-body {
     padding: 1.5rem;
-    padding-top: 3rem;
+  }
+  .modal .close {
+    position: absolute;
+    z-index: 20;
+    top: -10px;
+    right: -10px;
+    opacity: 1;
   }
 }
 div.swal2-popup {
@@ -4518,6 +4520,9 @@ div.swal2-html-container {
   }
   .site-footer .footer-brand .desc br {
     display: none;
+  }
+  .site-footer .footer-contact .qr-code {
+    max-width: 80%;
   }
 }
 @media (max-width: 575px) {
@@ -5212,7 +5217,7 @@ img.logo {
 }
 @media (max-width: 991px) {
   .top-graphic .cover {
-    padding-top: 50vh;
+    padding-top: 88vh;
   }
   .top-graphic .inner .title {
     font-size: 40px;
@@ -5298,6 +5303,9 @@ img.logo {
     bottom: 0px;
     width: 50px;
     height: 50px;
+  }
+  .site-container .section.section-IV .title br {
+    display: none;
   }
 }
 @media (max-width: 767px) {
@@ -5388,6 +5396,14 @@ img.logo {
 .site-container .section.section-V .desc br {
     display: none;
   }
+  .site-container .section .btn {
+    min-width: 100%;
+  }
+  .site-container .section .topic,
+.site-container .section .title,
+.site-container .section .desc {
+    text-align: center;
+  }
 }
 @media (max-width: 575px) {
   .site-container {
@@ -5404,7 +5420,7 @@ img.logo {
     margin-bottom: 0.5rem;
   }
   .top-graphic .cover {
-    padding-top: 44vh;
+    padding-top: 65vh;
   }
   .top-graphic .slick-dots {
     bottom: 15px;
@@ -5480,7 +5496,6 @@ img.logo {
     width: 100%;
   }
   :root {
-    --typo-xs: 14px;
     --typo-sm: 18px;
     --typo-md: 20px;
     --typo-lg: 22px;
@@ -5499,12 +5514,10 @@ img.logo {
     width: 100%;
   }
   :root {
-    --typo-xs: 12px;
     --typo-sm: 16px;
     --typo-md: 18px;
     --typo-lg: 20px;
     --typo-xl: 28px;
-    --typo-default: 14px;
   }
   .btn {
     min-width: 80px;
