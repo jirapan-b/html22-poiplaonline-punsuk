@@ -26,9 +26,7 @@
     width: 100%;
     overflow: hidden;
     line-height: 0;
-  
 }
-
 
 .shape-divider-2 svg {
     position: relative;
@@ -38,7 +36,7 @@
 }
 
 .shape-divider-2 .shape-fill {
-    fill: #FFFFFF;
+    fill: #ffffff;
 }
 
 .shape-divider-3 {
@@ -57,24 +55,52 @@
     width: calc(189% + 1.3px);
     height: 560px;
 }
- 
+
 .shape-divider-3 .shape-fill {
-    fill: #FFFFFF;
+    fill: #ffffff;
 }
 
 .flip {
     transform: scaleX(-1);
 }
 
-
 @media (max-width: 1600px) {
+    .shape-divider-2 svg {
+        width: calc(190% + 1.3px);
+        height: 500px;
+    }
+    .shape-divider-3 svg {
+        width: calc(190% + 1.3px);
+        height: 520px;
+    }
 }
 
 @media (max-width: 1440px) {
+    .shape-divider-2 svg {
+        width: calc(200% + 1.3px);
+        height: 480px;
+    }
+    .shape-divider-3 svg {
+        width: calc(200% + 1.3px);
+        height: 480px;
+    }
 }
 
 @media (max-width: 1199px) {
-   
+    .shape-divider-1 svg {
+        position: relative;
+        display: block;
+        width: calc(156% + 1.3px);
+        height: 280px;
+    }
+    .shape-divider-2 svg {
+        width: calc(200% + 1.3px);
+        height: 350px;
+    }
+    .shape-divider-3 svg {
+        width: calc(200% + 1.3px);
+        height: 350px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -82,12 +108,28 @@
         width: calc(159% + 1.3px);
         height: 260px;
     }
-
+    .shape-divider-2 {
+        top: -2px; 
+    }
+    .shape-divider-2 svg {
+        width: calc(210% + 1.3px);
+        height: 300px;
+    }
+    .shape-divider-3 svg {
+        width: calc(210% + 1.3px);
+        height: 300px;
+    }
 }
 
 @media (max-width: 767px) {
     .shape-divider-1 svg {
         width: calc(160% + 1.3px);
+        height: 180px;
+    }
+    .shape-divider-2 svg {
+        height: 180px;
+    }
+    .shape-divider-3 svg {
         height: 180px;
     }
 }
@@ -98,4 +140,3 @@
         height: 120px;
     }
 }
-

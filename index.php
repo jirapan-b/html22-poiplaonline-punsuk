@@ -39,7 +39,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" class="link" title="Line" target="_blank">
+                                            <a href="https://page.line.me/?accountId=719ydapx" class="link" title="Line" target="_blank">
                                                 <img src="assets/img/icon/line.svg" alt="ไลน์ของปล่อยปลาปันสุข">
                                             </a>
                                         </li>
@@ -158,12 +158,12 @@
                 <div class="container">
                     <div class="box">
                         <div class="row">
-                            <div class="col-md-6 col-12">
+                            <div class="col-lg-6 col-12">
                                 <h2 class="title text-primary">เคล็ดลับเสริมดวง <br>
                                     ทำบุญปล่อยปลาและสัตว์น้ำ <br>
                                     ตามวันเกิด</h2>
                             </div>
-                            <div class="col-md-6 col-12">
+                            <div class="col-lg-6 col-12">
                                 <table class="table border-0 m-0">
                                     <thead>
                                         <tr>
@@ -300,7 +300,7 @@
                                         <a href="https://www.facebook.com/poiplaonline.punsuk/" class="btn btn-xl btn-primary fb" title="Facebook" target="_blank">
                                             <img src="assets/img/icon/facebook.svg" alt="เฟสบุ๊คของปล่อยปลาปันสุข">ปล่อยปลาปันสุข
                                         </a>
-                                        <a href="#" class="btn btn-xl btn-primary line" title="Line" target="_blank">
+                                        <a href="https://page.line.me/?accountId=719ydapx" class="btn btn-xl btn-primary line" title="Line" target="_blank">
                                             <img src="assets/img/icon/line.svg" alt="ไลน์ของปล่อยปลาปันสุข">ปล่อยปลาปันสุข
                                         </a>
                                     </ul>

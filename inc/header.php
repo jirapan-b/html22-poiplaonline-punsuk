@@ -48,7 +48,7 @@
 				</a>
 			</li>
 			<li class="nav-item d-xl-block d-none">
-				<a href="#" class="nav-link" title="Line" target="_blank">
+				<a href="https://page.line.me/?accountId=719ydapx" class="nav-link" title="Line" target="_blank">
 					<img src="assets/img/icon/line.svg" alt="ไลน์ของปล่อยปลาปันสุข">
 				</a>
 			</li>

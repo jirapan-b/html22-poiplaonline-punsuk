@@ -371,6 +371,38 @@
     .top-graphic .inner .title {
         font-size: 65px;
     }
+    .site-container .section.section-I .graphic.-II {
+        margin-right: -800px;
+        max-width: 300px;
+    }
+    .site-container .section.section-I .graphic.-I {
+        max-width: 320px;
+    }
+    .site-container .section.section-I .graphic.-III {
+        margin-right: -1000px;
+        max-width: 420px;
+    }
+    .site-container .section.section-II .graphic.-II {
+        bottom: -180px;
+        max-width: 280px;
+    }
+    .site-container .section.section-V .graphic.-I {
+        margin-left: -1150px;
+        max-width: 650px;
+    }
+    .site-container .section.section-V .graphic.-III {
+        margin-left: -300px;
+        max-width: 280px;
+    }
+    .site-container .section.section-V .graphic.-IV {
+        margin-right: -550px;
+        max-width: 240px;
+    }
+    .site-container .section.section-V .graphic.-V {
+        margin-right: -900px;
+        bottom: -40px;
+        max-width: 320px;
+    }
 }
 
 @media (max-width: 1440px) {
@@ -381,11 +413,136 @@
         width: 64px;
         height: 64px;
     }
+    .top-graphic .inner .title {
+        font-size: 50px;
+    }
+    .site-container .section.section-I .graphic.-I {
+        max-width: 260px;
+    }
+    .site-container .section.section-I .graphic.-II {
+        margin-right: -730px;
+        max-width: 230px;
+    }
+    .site-container .section.section-I .graphic.-III {
+        margin-right: -860px;
+        max-width: 360px;
+    }
+    .site-container .section.section-II .graphic.-I {
+        margin-left: -240px;
+        max-width: 260px;
+    }
+    .site-container .section.section-II .graphic.-II {
+        max-width: 220px;
+        margin-right: -600px;
+    }
+    .site-container .section.section-V .graphic.-I {
+        margin-left: -830px;
+        max-width: 430px;
+    }
+    .site-container .section.section-V .graphic.-II {
+        max-width: 240px;
+    }
+    .site-container .section.section-V .graphic.-III {
+        margin-left: -280px;
+        max-width: 244px;
+    }
+    .site-container .section.section-V .graphic.-IV {
+        margin-right: -450px;
+        max-width: 200px;
+    }
+    .site-container .section.section-V .graphic.-V {
+        margin-right: -730px;
+        max-width: 250px;
+    }
+    .site-container .section.section-IV {
+        margin-bottom: 16rem;
+    }
+    .site-container .section.section-V {
+        padding: 10rem 0;
+    }
 }
 
 @media (max-width: 1199px) {
     .top-graphic .inner .title {
         font-size: 50px;
+    }
+    .site-container .section.section-I .graphic.-I {
+        max-width: 220px;
+    }
+    .site-container .section.section-I .graphic.-II {
+        margin-right: -500px;
+        max-width: 160px;
+    }
+    .site-container .section.section-I .graphic.-III {
+        margin-right: -620px;
+        max-width: 300px;
+    }
+    .site-container .section.section-II .graphic.-I {
+        margin-left: -180px;
+        max-width: 200px;
+    }
+    .site-container .section.section-II .graphic.-II {
+        max-width: 170px;
+        margin-right: -490px;
+        bottom: -120px;
+    }
+    .site-container .section.section-II {
+        padding: 4rem 0;
+        margin-bottom: 6rem;
+    }
+
+    .site-container .section.section-III {
+        padding: 6rem 0;
+    }
+    .site-container .section.section-IV .graphic.-II {
+        margin-left: -180px;
+        width: 24px;
+        height: 24px;
+    }
+    .site-container .section.section-IV {
+        margin-bottom: 12rem;
+    }
+    .site-container .section.section-IV .title {
+        margin: 0rem;
+    }
+    .site-container .section.section-IV table tr th:nth-child(2) {
+        width: 34%;
+    }
+    .site-container .section.section-V {
+        padding: 6rem 0;
+    }
+    .site-container .section.section-V .graphic.-III {
+        margin-left: -240px;
+        max-width: 180px;
+    }
+    .site-container .section.section-V .graphic.-I {
+        margin-left: -610px;
+        max-width: 280px;
+    }
+
+    .site-container .section.section-V .graphic.-II {
+        margin-left: -350px;
+        max-width: 165px;
+    }
+    .site-container .section.section-V .graphic.-IV {
+        margin-right: -380px;
+        max-width: 150px;
+        top: -130px;
+    }
+    .site-container .section.section-V .graphic.-V {
+        margin-right: -560px;
+        max-width: 200px;
+        bottom: 0;
+    }
+    .site-container .section.section-V .graphic.-VII {
+        top: 0;
+    }
+    .site-container .section.section-V .graphic.-VIII {
+        margin-right: -140px;
+        bottom: 30px;
+        right: 50%;
+        width: 60px;
+        height: 60px;
     }
 }
 
@@ -404,8 +561,81 @@
         margin-bottom: 8rem;
     }
     .top-graphic .slick-dots {
-		bottom: 90px;
-	}
+        bottom: 90px;
+    }
+    .site-container .section.section-I {
+        padding: 4rem 0;
+    }
+    .site-container .section.section-I .graphic.-I {
+        max-width: 130px;
+    }
+    .site-container .section.section-I .graphic.-VI {
+        margin-left: -60px;
+        bottom: -70px;
+        width: 44px;
+        height: 44px;
+    }
+    .site-container .section.section-I .graphic.-II {
+        margin-right: -380px;
+        max-width: 120px;
+    }
+    .site-container .section.section-I .graphic.-III {
+        margin-right: -480px;
+        max-width: 200px;
+        bottom: -30px;
+    }
+    .site-container .section.section-II .graphic.-II {
+        max-width: 140px;
+        margin-right: -380px;
+        bottom: -100px;
+    }
+    .site-container .section.section-IV {
+        padding: 4rem 0;
+        margin-bottom: 8rem;
+    }
+    .site-container .section.section-IV .title {
+        margin-bottom: 1.5rem;
+    }
+    .site-container .section.section-IV .graphic.-II {
+        display: none;
+    }
+    .site-container .section.section-V {
+        padding: 4rem 0;
+    }
+    .site-container .section.section-V .graphic.-I {
+        margin-left: -500px;
+        max-width: 220px;
+    }
+    .site-container .section.section-V .graphic.-II {
+        margin-left: -300px;
+        max-width: 138px;
+    }
+
+    .site-container .section.section-V .graphic.-III {
+        margin-left: -200px;
+        max-width: 145px;
+        top: -60px;
+    }
+    .site-container .section.section-V .graphic.-IV {
+        margin-right: -250px;
+        max-width: 125px;
+        top: -100px;
+    }
+    .site-container .section.section-V .graphic.-V {
+        margin-right: -420px;
+        max-width: 130px;
+    }
+    .site-container .section.section-V .graphic.-VII {
+        top: 0;
+        width: 26px;
+        height: 26px;
+        margin-right: -80px;
+    }
+    .site-container .section.section-V .graphic.-VIII {
+        bottom: 0px;
+        width: 50px;
+        height: 50px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -419,8 +649,8 @@
         margin-bottom: 6rem;
     }
     .top-graphic .slick-dots {
-		bottom: 50px;
-	}
+        bottom: 50px;
+    }
     .top-graphic .inner .item-list .btn .feather {
         font-size: 22px;
     }
@@ -429,7 +659,75 @@
         height: 50px;
     }
     .top-graphic .inner .item-list li + li {
-        margin-left: .4rem;
+        margin-left: 0.4rem;
+    }
+    .site-container .section .desc {
+        margin-bottom: 1.5rem;
+    }
+    .site-container .section img.shape {
+        margin-top: 1rem;
+    }
+    .site-container .section.section-I,
+    .site-container .section.section-II,
+    .site-container .section.section-IV {
+        padding: 1rem 0;
+        margin-bottom: 1rem;
+    }
+    .site-container .section.section-III {
+        padding: 8rem 0 4rem 0;
+        margin-bottom: 1rem;
+    }
+    .site-container .section img.shape.-II-I {
+        -webkit-mask: url(../img/static/shape-II-I.svg) center/contain no-repeat;
+    }
+    .site-container .section.section-IV {
+        margin-bottom: 6rem;
+    }
+    .site-container .section.section-IV .box {
+        padding: 1.5rem;
+    }
+    .site-container .section.section-V {
+        margin-bottom: 0rem;
+    }
+    .site-container .section.section-V .graphic.-II {
+        margin-left: -110px;
+        max-width: 90px;
+    }
+    .site-container .section.section-V .graphic.-III {
+        margin-left: -188px;
+        max-width: 100px;
+        top: -44px;
+    }
+    .site-container .section.section-V .graphic.-IV {
+        margin-right: -200px;
+        max-width: 100px;
+        top: -60px;
+    }
+    .site-container .section.section-V .graphic.-VII {
+        width: 24px;
+        height: 24px;
+        margin-right: -40px;
+    }
+    .site-container .section.section-V .graphic.-VIII {
+        width: 40px;
+        height: 40px;
+        margin-right: -100px;
+    }
+    .site-container .section.section-IV .box,
+    .site-footer .footer-contact .box {
+        border-radius: 1rem;
+    }
+    .site-container .section.section-I .graphic.-I,
+    .site-container .section.section-I .graphic.-II,
+    .site-container .section.section-I .graphic.-III,
+    .site-container .section.section-I .graphic.-IV,
+    .site-container .section.section-I .graphic.-V,
+    .site-container .section.section-I .graphic.-VI,
+    .site-container .section.section-II .graphic.-I,
+    .site-container .section.section-II .graphic.-II,
+    .site-container .section.section-II .graphic.-III,
+    .site-container .section.section-V .desc br {
+        display: none;
     }
 }
 
@@ -445,7 +743,7 @@
     }
     .top-graphic .inner .title {
         font-size: 32px;
-        margin-bottom: .5rem;
+        margin-bottom: 0.5rem;
     }
     .top-graphic .cover {
         padding-top: 44vh;
@@ -453,5 +751,4 @@
     .top-graphic .slick-dots {
         bottom: 15px;
     }
-    
 }
