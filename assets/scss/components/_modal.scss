@@ -91,7 +91,10 @@
                 color: var(--color-secondary);
             }
         }
-        .list-group a + a {
+        .item-list > li {
+            width: 100%;
+        }
+        .item-list > li + li {
             margin-top: 1.5rem;
         }
     }
@@ -191,6 +194,9 @@
         width: 46px;
         left: -10px;
     }
+    .modal.modal-contact .modal-body .item-list > li + li {
+        margin-top: 1rem;
+    }
 }
 
 @media (max-width: 575px) {
@@ -200,7 +206,7 @@
         top: 0;
         font-size: 30px;
     }
- 
+
     .modal.modal-contact .modal-body {
         padding: 1.5rem;
     }
